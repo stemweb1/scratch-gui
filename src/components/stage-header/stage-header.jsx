@@ -137,7 +137,7 @@ const StageHeaderComponent = function (props) {
                             <Button
                                 className={styles.stageButton}
                                 onClick={onSetStageFull}
-                                id={"scratch-unpreview-button"}
+                                id={"scratch-preview-button"}
                             >
                                 <img
                                     alt={props.intl.formatMessage(messages.fullStageSizeMessage)}
