@@ -18,11 +18,12 @@ const getStageSize = (
     };
 
     if (isFullScreen) {
-        stageSize.height = window.innerHeight -
-                           STAGE_SIZE_DEFAULTS.menuHeightAdjustment -
-                           STAGE_SIZE_DEFAULTS.spacingBorderAdjustment;
+        stageSize.height = window.innerHeight * .75;
+        // stageSize.height = window.innerHeight -
+        //                    STAGE_SIZE_DEFAULTS.menuHeightAdjustment -
+        //                    STAGE_SIZE_DEFAULTS.spacingBorderAdjustment;
 
-        stageSize.width = stageSize.height + (stageSize.height / 3);
+        // stageSize.width = stageSize.height + (stageSize.height / 3);
 
         if (stageSize.width > window.innerWidth) {
             stageSize.width = window.innerWidth;
