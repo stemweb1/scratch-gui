@@ -23,7 +23,7 @@ const getStageSize = (
         //                    STAGE_SIZE_DEFAULTS.menuHeightAdjustment -
         //                    STAGE_SIZE_DEFAULTS.spacingBorderAdjustment;
 
-        // stageSize.width = stageSize.height + (stageSize.height / 3);
+        stageSize.width = stageSize.height + (stageSize.height / 3);
 
         if (stageSize.width > window.innerWidth) {
             stageSize.width = window.innerWidth;
